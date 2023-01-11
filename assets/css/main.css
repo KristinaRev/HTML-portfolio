@@ -3,18 +3,53 @@
 
 /*custom
 */
-.wrapper-job-items{
-   display: flex;
-   justify-content: space-between;
-   
+
+
+
+.job-item__block div {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
 }
 
-.wrapper-job-items div {
-	width: 33%;
-	border: 10px solid #43bff0;
-	border-radius: 20px;
-	margin: 4%;
-	padding: 2%;
+.job-item__block div p {
+	color: #383838;
+}
+
+.steps-for-order ul li{
+    color: #000000;
+	text-align: left;
+}
+
+.steps-for-order {
+	padding: 9%  15%;
+
+}
+
+
+.result {
+  margin-top: 12%;
+}
+
+
+.result-block {
+	display: flex;
+	padding: 3%;
+	margin: 3%;
+	justify-content: space-between;
+	background-color: rgba(255, 255, 255);
+	overflow: hidden;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-block p {
+	color: #383838;
+}
+
+.result-block__image {
+	padding: 0;
+	margin: 0;
 }
 
 html, body, div, span, applet, object,
@@ -2187,11 +2222,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
-		.wrapper-job-items{
-			display: flex;
-			justify-content: space-between;
-			
-		 }
+		
 
 		/* Basic */
 
@@ -2262,9 +2293,7 @@ input, select, textarea {
 			align-items: center;
 		 }
 
-		 .wrapper-job-items div {
-			width: 100%;
-		 }
+		
 
 
 		/* Basic */
